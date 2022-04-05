@@ -1,16 +1,11 @@
 package com.citi.employee.model;
 
 public class PackageDetails {
-	private String costToEconomy;
+	private int costToCompany;
 	private int basicSalary;
 	private int houseRentAllowance;
 	private int specialAllowance;
-	public String getCostToEconomy() {
-		return costToEconomy;
-	}
-	public void setCostToEconomy(String costToEconomy) {
-		this.costToEconomy = costToEconomy;
-	}
+
 	public int getBasicSalary() {
 		return basicSalary;
 	}
@@ -19,6 +14,12 @@ public class PackageDetails {
 	}
 	public int getHouseRentAllowance() {
 		return houseRentAllowance;
+	}
+	public int getCostToCompany() {
+		return costToCompany;
+	}
+	public void setCostToCompany(int costToCompany) {
+		this.costToCompany = costToCompany;
 	}
 	public void setHouseRentAllowance(int houseRentAllowance) {
 		this.houseRentAllowance = houseRentAllowance;
